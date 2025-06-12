@@ -11,8 +11,7 @@
 export default function CountryCard(props) {
 
     return (
-        // <div className="bg-[#F2F2E3] w-[400px] mx-auto p-4 pb-14">
-        <div onClick={props.onClick} className=" h-[375px] w-[350px] max-w-full  bg-[#F2F2E3] shadow-lg p-4 m-2 -rotate-2 rounded-sm">
+        <div onClick={props.onClick} className=" h-[375px] w-[350px] max-w-full  bg-[#FFFFF7] shadow-lg p-4 m-2 -rotate-2 rounded-sm">
 
             <h2 className="text-center font-regular font-girlNext text-3xl">{props.country}</h2>
             <img src={props.image} className="w-full h-auto object-cover mx-auto mt-3 mb-6 rounded-sm"></img>
