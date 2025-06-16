@@ -54,7 +54,7 @@ function App() {
                       notes="Machu Picchu, Book Inca trail" 
                       /> 
                   </div>  
-                  <ButtonAddDestination></ButtonAddDestination> 
+                  <ButtonAddDestination /> 
                   {/* <Link to="/addDestination">Add Destination</Link>         */}
                 </div>
                 
